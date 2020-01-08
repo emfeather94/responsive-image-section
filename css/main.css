@@ -28,12 +28,16 @@ h1 {
   padding-top: 2rem;
 }
 
-img {
+.img-flex {
+  display: block;
   width: 100%;
 }
 
 section {
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 h2 {
@@ -58,3 +62,28 @@ a {
   padding: 0.5em 0.75em;
   border-radius: 4px;
 }
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .content,
+  .idontknow {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
