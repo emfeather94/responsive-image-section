@@ -25,7 +25,7 @@ body {
 
 h1 {
   margin: 0;
-  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 .img-flex {
@@ -43,6 +43,7 @@ section {
 h2 {
   margin: 0;
   font-size: 1em;
+  padding-top: .25rem;
 }
 
 p {
@@ -53,26 +54,37 @@ p {
 .content {
   max-width: 50em;
   padding: 2rem 0;
+  display: inline-block;
 }
 
 a {
   text-decoration: none;
   color: #fff;
   background-color: #555;
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   border-radius: 4px;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 38em) {
 
   html {
     font-size: 110%;
     line-height: 1.4;
   }
 
+  .content,
+  .idontknow {
+    width: 50%;
+    padding-right: 1rem;
+  }
 
+  .idontknow {
+    padding: 0;
+  }
 
-@media only screen and (min-width: 38em) {
+}
+
+@media only screen and (min-width: 60em) {
 
   html {
     font-size: 120%;
@@ -82,8 +94,11 @@ a {
   .content,
   .idontknow {
     width: 50%;
+    padding: 2rem 1rem;
   }
 
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 90em) {
+
+}
